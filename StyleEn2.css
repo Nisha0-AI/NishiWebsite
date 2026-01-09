@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Mouse Memoirs", sans-serif;
+}
+
+nav{
+    background-color: white;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+nav ul{
+    width: 90%;
+    list-style: none;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li{
+    height: 50px;
+}
+nav a{
+    height: 100%;
+    padding: 0 60px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+nav a:hover{
+    background-color: #f0f0f0;
+}
+nav li:first-child{
+    margin-right: auto;
+}
+
+
+
+.swiper {
+  width: 100%;
+  height: 100vh;
+}
+
+
+
+.swiper-slide {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.bg1  { background:#008080; }
+.bg2  { background:#FD3DB5; }
+.bg3  { background:#00FFEF; }
+.bg4  { background:#FFF700; }
+.bg5  { background:#e6d7ff; }
+.bg6  { background:#4b0082; }
+.bg7  { background:#FFB343; }
+.bg8  { background:#FFC000; }
+.bg9  { background:#FFAA33; }
+.bg10 { background:#228B22; }
+
+/* Side-by-side layout */
+.slide-content {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  max-width: 1000px;
+  padding: 20px;
+}
+
+
+.slide-content img {
+  width: auto;
+  height: 500px;       
+  max-width: 100%;
+  border-radius: 10px;
+  object-fit: contain; 
+}
+
+
+/* Text styling */
+.text {
+  color: black;
+  max-width: 200px;
+}
+
+
+.text h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.text p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: black;
+  z-index: 10;
+}
+
+
+@media (max-width: 768px) {
+  .slide-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .text {
+    max-width: 100%;
+  }
+}

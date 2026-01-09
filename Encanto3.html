@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="StyleEn3.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#"><img src="PIC/LOGO.png" width="120"></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Encanto2.html">Characters</a></li>
+            <li><a href="Encanto3.html">Media</a></li>
+            <li><a href="Encanto4.html">Cast</a></li>
+        </ul>
+    </nav>
+
+    <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><a href="https://www.youtube.com/watch?v=hrSMCghmoZc" target="_blank"><img src="PIC/Vision.jpg" alt="Bruno"></a></div>
+      <div class="swiper-slide"><a href="https://www.youtube.com/watch?v=Yp5nPGWWMh4&list=RDYp5nPGWWMh4&start_radio=1" target="_blank">
+        <img src="PIC/Family_Madrigal.webp" alt="Madrigals"></a></div>
+      <div class="swiper-slide"><a href="https://www.youtube.com/watch?v=FPQIsKUymfg" target="_blank">
+         <img src="PIC/Dinner.jpg" alt="Dinner"></a></div>
+      <div class="swiper-slide"><a href="https://www.youtube.com/watch?v=hrMxx8EV4JU&list=RDhrMxx8EV4JU&start_radio=1" target="_blank">
+         <img src="PIC/Encanto_All_Of_You_Madrigal_Family.webp" alt="All of You"></a></div>
+      <div class="swiper-slide"><a href="https://www.youtube.com/watch?v=jKKrfr4To14&list=RDjKKrfr4To14&start_radio=1" target="_blank">
+         <img src="PIC/Miracle.webp" alt="Miracle"></a></div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+        dynamicBullets: true,
+      },
+    });
+  </script>
+
+</body>
+</html>
